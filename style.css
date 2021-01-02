@@ -5,6 +5,10 @@
     padding: 0;
 }
 
+body {
+    background: #00481F;
+}
+
 div.wrapper {
     background: #002D13;
     height: 1000px;
@@ -172,7 +176,7 @@ div.gradient1 {
     position: absolute;
     width: 750px;
     height: 750px;
-    left: 750px;
+    left: 760px;
     top: 475px;
 
     background: linear-gradient(316.73deg, #F4F900 -0.28%, rgba(0, 45, 19, 0.66) 95.7%), #178C00;
@@ -186,4 +190,288 @@ div.gradient1 img {
     top: -14.2%;
     bottom: -125.79%;
     width: 473.08px;
+}
+
+p.creation {
+    position: absolute;
+    width: 319px;
+    height: 63px;
+    left: 93px;
+    top: 1080px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 100%;
+    /* or 30px */
+
+
+    color: #FFFFFF;
+}
+
+div.gradient2 {
+    position: absolute;
+    width: 750px;
+    height: 750px;
+    left: 12px;
+    top: 1223.27px;
+    background: linear-gradient(316.73deg, #F4F900 -0.28%, rgba(0, 45, 19, 0.66) 95.7%), #178C00;
+    border-radius: 30px 0px 0px 0px;
+    transform: rotate(-180deg);
+}
+
+div.gradient2 img {
+    position: absolute;
+    width: 408px;
+    height: 286.38px;
+    left: 166px;
+    top: 252px;
+    transform: rotate(-180deg);
+}
+
+div.free p.for {
+    position: absolute;
+    width: 124px;
+    height: 31px;
+    right: 63px;
+    top: 1463px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 100%;
+    /* or 50px */
+    color: #FCDC00;
+    text-align: right;
+}
+
+div.free p.fre {
+    position: absolute;
+    width: 270px;
+    height: 84px;
+    right: 63px;
+    top: 1506px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 100px;
+    line-height: 100%;
+    /* or 100px */
+    color: #FCDC00;
+    text-align: right;
+}
+
+div.free p.subs {
+    position: absolute;
+    width: 288px;
+    height: 53px;
+    left: 1141px;
+    top: 1720px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 100%;
+    /* or 30px */
+
+    text-align: right;
+
+    color: #FFFFFF;
+
+}
+
+div.video {
+    position: absolute;
+    width: 453px;
+    height: 221px;
+    left: 66px;
+    top: 2201px;
+}
+
+div.video p.no {
+    position: absolute;
+    width: 453px;
+    height: 99px;
+    left: 0px;
+    top: 1px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 100px;
+    line-height: 100%;
+    /* or 100px */
+
+    text-align: center;
+
+    color: #FCDC00;
+}
+
+div.video p.title {
+    position: absolute;
+    width: 371px;
+    height: 33px;
+    left: 41px;
+    top: 110px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 100%;
+    /* or 30px */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+div.video div.yellow p.yellow {
+
+    position: absolute;
+    width: 307px;
+    height: 33px;
+    left: 56px;
+    top: 182px;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 100%;
+    text-align: center;
+    background: linear-gradient(268.94deg, #E0FF22 0.22%, rgba(39, 68, 47, 0) 95.37%), #FCDC00;
+    border-radius: 5px;
+    color: #002D13;
+    padding: 18px;
+}
+
+div.subscriber {
+    position: absolute;
+    top: 2201px;
+    left: 540px;
+}
+
+div.subscriber p.no {
+    position: absolute;
+    width: 453px;
+    height: 99px;
+    left: 0px;
+    top: 1px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 100px;
+    line-height: 100%;
+    /* or 100px */
+
+    text-align: center;
+
+    color: #FCDC00;
+}
+
+div.subscriber p.title {
+    position: absolute;
+    width: 371px;
+    height: 33px;
+    left: 41px;
+    top: 110px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 100%;
+    /* or 30px */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+div.subscriber div.yellow p.yellow {
+    position: absolute;
+    width: 307px;
+    height: 33px;
+    text-transform: uppercase;
+    left: 56px;
+    top: 182px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 100%;
+    text-align: center;
+    background: linear-gradient(268.94deg, #E0FF22 0.22%, rgba(39, 68, 47, 0) 95.37%), #FCDC00;
+    border-radius: 5px;
+    color: #002D13;
+    padding: 18px;
+}
+
+div.group {
+    position: absolute;
+    top: 2201px;
+    left: 1000px;
+}
+
+div.group p.no {
+    position: absolute;
+    width: 453px;
+    height: 99px;
+    left: 0px;
+    top: 1px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 100px;
+    line-height: 100%;
+    /* or 100px */
+
+    text-align: center;
+
+    color: #FCDC00;
+}
+
+div.group p.title {
+    position: absolute;
+    width: 371px;
+    height: 33px;
+    left: 41px;
+    top: 110px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 100%;
+    /* or 30px */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+div.group div.yellow p.yellow {
+    position: absolute;
+    width: 307px;
+    height: 33px;
+    left: 56px;
+    top: 182px;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 100%;
+    text-align: center;
+    background: linear-gradient(268.94deg, #E0FF22 0.22%, rgba(39, 68, 47, 0) 95.37%), #FCDC00;
+    border-radius: 5px;
+    color: #002D13;
+    padding: 18px;
 }
