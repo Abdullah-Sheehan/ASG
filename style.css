@@ -1,6 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+}
+
+div.wrapper {
+    background: #002D13;
+    height: 1000px;
+    width: 1500px;
 }
 
 div.bar {
@@ -82,4 +90,62 @@ div.bar svg.second {
     height: 35px;
     left: 1412px;
     top: 49px;
+}
+
+div.frame11 {
+    position: absolute;
+    width: 1500px;
+    height: 872px;
+    left: 0px;
+    top: 128px;
+    background: ;
+}
+
+div.frame11 p.one {
+    position: absolute;
+    width: 678.83px;
+    height: 47.77px;
+    left: calc(50% - 678.83px/2 - 0.5px);
+    top: 140px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 100%;
+    /* or 30px */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+div.frame11 p.two {
+    position: absolute;
+    width: 709px;
+    height: 69.81px;
+    left: calc(50% - 709px/2 - 0.5px);
+    top: calc(50% - 69.81px/2 - 198.98px);
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 100%;
+    /* or 50px */
+
+    text-align: center;
+
+    color: #FCDC00;
+}
+
+div.frame11 div.thin {
+    position: absolute;
+    width: 253px;
+    height: 5px;
+    left: calc(50% - 253px/2 - 0.5px);
+    bottom: 573px;
+    background: #FFC800;
+    border-radius: 5px;
+    transform: matrix(1, 0, 0, -1, 0, 0);
 }
