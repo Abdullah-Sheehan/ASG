@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div.bar {
+    position: absolute;
+    width: 1500px;
+    height: 129px;
+    left: 0px;
+    top: 0px;
+    background: #004B20;
+}
+
+div.bar svg.first {
+    position: absolute;
+    width: 39px;
+    height: 39px;
+    left: 53px;
+    top: 47px;
+}
+
+div.bar pre {
+    position: absolute;
+    width: 203px;
+    height: 38px;
+    left: 103px;
+    top: 46px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 100%;
+    /* or 20px */
+
+
+    color: #FCDC00;
+}
+
+div.bar p.login {
+    position: absolute;
+    width: 126px;
+    height: 30px;
+    left: calc(50% - 126px/2 + 356px);
+    top: 54px;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 100%;
+    /* identical to box height, or 30px */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+div.bar p.home {
+    position: absolute;
+    width: 126px;
+    height: 30px;
+    left: calc(50% - 126px/2 + 531px);
+    top: 54px;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 100%;
+    /* identical to box height, or 30px */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+div.bar svg.second {
+    position: absolute;
+    width: 45px;
+    height: 35px;
+    left: 1412px;
+    top: 49px;
+}
