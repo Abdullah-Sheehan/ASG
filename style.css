@@ -7,6 +7,7 @@
 
 body {
     background: #00481F;
+    width: 1500px;
 }
 
 div.wrapper {
@@ -102,7 +103,6 @@ div.frame11 {
     height: 872px;
     left: 0px;
     top: 128px;
-    background: ;
 }
 
 div.frame11 p.one {
@@ -234,7 +234,7 @@ div.free p.for {
     position: absolute;
     width: 124px;
     height: 31px;
-    right: 63px;
+    left: 1290px;
     top: 1463px;
 
     font-family: Montserrat;
@@ -251,7 +251,7 @@ div.free p.fre {
     position: absolute;
     width: 270px;
     height: 84px;
-    right: 63px;
+    left: 1141px;
     top: 1506px;
 
     font-family: Montserrat;
@@ -474,4 +474,324 @@ div.group div.yellow p.yellow {
     border-radius: 5px;
     color: #002D13;
     padding: 18px;
+}
+
+div.join {
+    position: absolute;
+    width: 1500px;
+    height: 625px;
+    left: 0px;
+    top: 2621px;
+
+    background: #003E1A;
+}
+
+p.join1 {
+    position: absolute;
+    width: 291px;
+    height: 94px;
+    left: 204px;
+    top: 2761px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 100px;
+    line-height: 100%;
+    /* or 100px */
+
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+p.acp {
+    position: absolute;
+    width: 699px;
+    height: 176px;
+    left: 0px;
+    top: 2855px;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 200px;
+    line-height: 100%;
+    /* or 200px */
+    color: #FCDC00;
+
+    text-align: center;
+
+}
+
+svg.qn {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 580px;
+    top: 2887px;
+}
+
+p.lm {
+    position: absolute;
+    width: 291px;
+    height: 33px;
+    left: calc(50% - 291px/2 - 438.5px);
+    top: calc(50% - 33px/2 + 2668.5px);
+    border-radius: 5px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 30px;
+    line-height: 100%;
+    /* or 30px */
+    text-transform: uppercase;
+    text-align: center;
+    background: linear-gradient(268.94deg, #E0FF22 0.22%, rgba(39, 68, 47, 0) 95.37%), #FCDC00;
+    padding: 18px;
+    color: #002D13;
+
+
+}
+
+p.tc {
+    position: absolute;
+    width: 762px;
+    height: 97px;
+    left: calc(50% - 762px/2 + 330px);
+    top: calc(50% - 97px/2 + 2294.5px);
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 100%;
+    /* or 50px */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+svg.arr1 {
+    position: absolute;
+    width: 21px;
+    height: 19px;
+    left: calc(50% - 21px/2 + 25.5px);
+    top: calc(50% - 19px/2 + 2442.5px);
+}
+
+p.prep {
+    position: absolute;
+    width: 413px;
+    height: 30px;
+    left: calc(50% - 413px/2 + 262.5px);
+    top: calc(50% - 30px/2 + 2437px);
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 100%;
+    /* or 38px */
+
+
+    color: #FFFFFF;
+}
+
+svg.arr2 {
+    position: absolute;
+    width: 21px;
+    height: 19px;
+    left: calc(50% - 21px/2 + 25.5px);
+    top: calc(50% - 19px/2 + 2533.5px);
+
+}
+
+p.grp {
+    position: absolute;
+    width: 285px;
+    height: 30px;
+    left: calc(50% - 285px/2 + 197.5px);
+    top: calc(50% - 30px/2 + 2528px);
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 100%;
+    /* or 38px */
+
+
+    color: #FFFFFF
+}
+
+svg.arr3 {
+    position: absolute;
+    width: 21px;
+    height: 19px;
+    left: calc(50% - 21px/2 + 25.5px);
+    top: calc(50% - 19px/2 + 2624.5px);
+}
+
+p.live {
+    position: absolute;
+    width: 284px;
+    height: 30px;
+    left: calc(50% - 284px/2 + 198px);
+    top: calc(50% - 30px/2 + 2619px);
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 100%;
+    /* or 38px */
+
+
+    color: #FFFFFF;
+}
+
+svg.arr4 {
+    position: absolute;
+    width: 21px;
+    height: 19px;
+    left: calc(50% - 21px/2 + 25.5px);
+    top: calc(50% - 19px/2 + 2715.5px);
+}
+
+p.much {
+    position: absolute;
+    width: 349px;
+    height: 30px;
+    left: calc(50% - 349px/2 + 230.5px);
+    top: calc(50% - 30px/2 + 2710px);
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 100%;
+    /* or 38px */
+
+
+    color: #FFFFFF;
+}
+
+div.apar-vai {
+    position: absolute;
+    width: 1387px;
+    height: 349px;
+    left: 57px;
+    top: 3351px;
+}
+
+div.apar-vai svg.top {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 714px;
+    top: 181px;
+}
+
+div.apar-vai p.name {
+    position: absolute;
+    width: 371px;
+    height: 33px;
+    left: 210px;
+    top: 95px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 100%;
+    /* or 30px */
+
+
+    color: #FCDC00;
+}
+
+div.apar-vai p.intro {
+    position: absolute;
+    width: 289px;
+    height: 24px;
+    left: 210px;
+    top: 142px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100%;
+    /* or 20px */
+
+
+    color: #FFFFFF;
+}
+
+div.apar-vai svg.fb {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: calc(50% - 40px/2 - 463.5px);
+    top: 194px;
+
+}
+
+div.apar-vai svg.twitter {
+
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 296px;
+    top: 194px;
+
+}
+
+div.apar-vai svg.ig {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 382px;
+    top: 194px;
+
+}
+
+div.apar-vai p.right {
+    position: absolute;
+    width: 315px;
+    height: 26px;
+    left: 1072px;
+    top: 115px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 100%;
+    /* or 22px */
+
+    text-align: right;
+
+    color: #FFFFFF;
+}
+
+div.apar-vai p.classroom {
+    position: absolute;
+    width: 329px;
+    height: 38px;
+    left: 1058px;
+    top: 145px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 100%;
+    /* or 35px */
+
+    text-align: right;
+
+    color: #FCDC00;
 }
