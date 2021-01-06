@@ -4,9 +4,11 @@
   margin: 0;
   padding: 0;
 }
+
 a {
   text-decoration: none;
 }
+
 body {
   background: #00481f;
   width: 1500px;
@@ -179,11 +181,9 @@ div.gradient1 {
   left: 760px;
   top: 475px;
 
-  background: linear-gradient(
-      316.73deg,
+  background: linear-gradient(316.73deg,
       #f4f900 -0.28%,
-      rgba(0, 45, 19, 0.66) 95.7%
-    ),
+      rgba(0, 45, 19, 0.66) 95.7%),
     #178c00;
   border-radius: 30px 0px 0px 0px;
 }
@@ -220,11 +220,9 @@ div.gradient2 {
   height: 750px;
   left: 12px;
   top: 1223.27px;
-  background: linear-gradient(
-      316.73deg,
+  background: linear-gradient(316.73deg,
       #f4f900 -0.28%,
-      rgba(0, 45, 19, 0.66) 95.7%
-    ),
+      rgba(0, 45, 19, 0.66) 95.7%),
     #178c00;
   border-radius: 30px 0px 0px 0px;
   transform: rotate(-180deg);
@@ -351,11 +349,9 @@ div.video div.yellow p.yellow {
   font-size: 30px;
   line-height: 100%;
   text-align: center;
-  background: linear-gradient(
-      268.94deg,
+  background: linear-gradient(268.94deg,
       #e0ff22 0.22%,
-      rgba(39, 68, 47, 0) 95.37%
-    ),
+      rgba(39, 68, 47, 0) 95.37%),
     #fcdc00;
   border-radius: 5px;
   color: #002d13;
@@ -419,11 +415,9 @@ div.subscriber div.yellow p.yellow {
   font-size: 30px;
   line-height: 100%;
   text-align: center;
-  background: linear-gradient(
-      268.94deg,
+  background: linear-gradient(268.94deg,
       #e0ff22 0.22%,
-      rgba(39, 68, 47, 0) 95.37%
-    ),
+      rgba(39, 68, 47, 0) 95.37%),
     #fcdc00;
   border-radius: 5px;
   color: #002d13;
@@ -487,11 +481,9 @@ div.group div.yellow p.yellow {
   font-size: 30px;
   line-height: 100%;
   text-align: center;
-  background: linear-gradient(
-      268.94deg,
+  background: linear-gradient(268.94deg,
       #e0ff22 0.22%,
-      rgba(39, 68, 47, 0) 95.37%
-    ),
+      rgba(39, 68, 47, 0) 95.37%),
     #fcdc00;
   border-radius: 5px;
   color: #002d13;
@@ -557,8 +549,8 @@ p.lm {
   position: absolute;
   width: 291px;
   height: 33px;
-  left: calc(50% - 291px / 2 - 438.5px);
-  top: calc(50% - 33px / 2 + 2668.5px);
+  left: 181px;
+  top: 3100px;
   border-radius: 5px;
   font-family: Montserrat;
   font-style: normal;
@@ -568,11 +560,9 @@ p.lm {
   /* or 30px */
   text-transform: uppercase;
   text-align: center;
-  background: linear-gradient(
-      268.94deg,
+  background: linear-gradient(268.94deg,
       #e0ff22 0.22%,
-      rgba(39, 68, 47, 0) 95.37%
-    ),
+      rgba(39, 68, 47, 0) 95.37%),
     #fcdc00;
   padding: 18px;
   color: #002d13;
@@ -582,8 +572,8 @@ p.tc {
   position: absolute;
   width: 762px;
   height: 97px;
-  left: calc(50% - 762px / 2 + 330px);
-  top: calc(50% - 97px / 2 + 2294.5px);
+  left: 684px;
+  top: 2700px;
 
   font-family: Montserrat;
   font-style: normal;
@@ -601,16 +591,16 @@ svg.arr1 {
   position: absolute;
   width: 21px;
   height: 19px;
-  left: calc(50% - 21px / 2 + 25.5px);
-  top: calc(50% - 19px / 2 + 2442.5px);
+  left: 758px;
+  top: 2870px;
 }
 
 p.prep {
   position: absolute;
   width: 413px;
   height: 30px;
-  left: calc(50% - 413px / 2 + 262.5px);
-  top: calc(50% - 30px / 2 + 2437px);
+  left: 806px;
+  top: 2858px;
 
   font-family: Montserrat;
   font-style: normal;
@@ -626,16 +616,16 @@ svg.arr2 {
   position: absolute;
   width: 21px;
   height: 19px;
-  left: calc(50% - 21px / 2 + 25.5px);
-  top: calc(50% - 19px / 2 + 2533.5px);
+  left: 758px;
+  top: 2970px;
 }
 
 p.grp {
   position: absolute;
   width: 285px;
   height: 30px;
-  left: calc(50% - 285px / 2 + 197.5px);
-  top: calc(50% - 30px / 2 + 2528px);
+  left: 806px;
+  top: 2958px;
 
   font-family: Montserrat;
   font-style: normal;
@@ -651,16 +641,16 @@ svg.arr3 {
   position: absolute;
   width: 21px;
   height: 19px;
-  left: calc(50% - 21px / 2 + 25.5px);
-  top: calc(50% - 19px / 2 + 2624.5px);
+  left: 758px;
+  top: 3070px;
 }
 
 p.live {
   position: absolute;
   width: 284px;
   height: 30px;
-  left: calc(50% - 284px / 2 + 198px);
-  top: calc(50% - 30px / 2 + 2619px);
+  left: 806px;
+  top: 3058px;
 
   font-family: Montserrat;
   font-style: normal;
@@ -676,16 +666,16 @@ svg.arr4 {
   position: absolute;
   width: 21px;
   height: 19px;
-  left: calc(50% - 21px / 2 + 25.5px);
-  top: calc(50% - 19px / 2 + 2715.5px);
+  left: 758px;
+  top: 3170px;
 }
 
 p.much {
   position: absolute;
   width: 349px;
   height: 30px;
-  left: calc(50% - 349px / 2 + 230.5px);
-  top: calc(50% - 30px / 2 + 2710px);
+  left: 806px;
+  top: 3158px;
 
   font-family: Montserrat;
   font-style: normal;
@@ -809,8 +799,8 @@ div.apar-vai p.classroom {
   color: #fcdc00;
 }
 
-div.apar-vai div.golla {
-}
+div.apar-vai div.golla {}
+
 div.apar-vai div.golla img.apar {
   position: absolute;
   height: 276px;
