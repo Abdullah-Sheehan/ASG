@@ -228,7 +228,7 @@ div.gradient2 {
   transform: rotate(-180deg);
 }
 
-div.gradient2 img {
+div.gradient2 svg.youtube {
   position: absolute;
   width: 408px;
   height: 286.38px;
