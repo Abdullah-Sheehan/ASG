@@ -1,797 +1,818 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
-
+a {
+  text-decoration: none;
+}
 body {
-    background: #00481F;
-    width: 1500px;
+  background: #00481f;
+  width: 1500px;
 }
 
 div.wrapper {
-    background: #002D13;
-    height: 1000px;
-    width: 1500px;
+  background: #002d13;
+  height: 1000px;
+  width: 1500px;
 }
 
 div.bar {
-    position: absolute;
-    width: 1500px;
-    height: 129px;
-    left: 0px;
-    top: 0px;
-    background: #004B20;
+  position: absolute;
+  width: 1500px;
+  height: 129px;
+  left: 0px;
+  top: 0px;
+  background: #004b20;
 }
 
 div.bar svg.first {
-    position: absolute;
-    width: 39px;
-    height: 39px;
-    left: 53px;
-    top: 47px;
+  position: absolute;
+  width: 39px;
+  height: 39px;
+  left: 53px;
+  top: 47px;
 }
 
 div.bar pre {
-    position: absolute;
-    width: 203px;
-    height: 38px;
-    left: 103px;
-    top: 46px;
+  position: absolute;
+  width: 203px;
+  height: 38px;
+  left: 103px;
+  top: 46px;
 
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 100%;
-    /* or 20px */
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 100%;
+  /* or 20px */
 
-
-    color: #FCDC00;
+  color: #fcdc00;
 }
 
 div.bar p.login {
-    position: absolute;
-    width: 126px;
-    height: 30px;
-    left: calc(50% - 126px/2 + 356px);
-    top: 54px;
-    text-transform: uppercase;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 30px;
-    line-height: 100%;
-    /* identical to box height, or 30px */
+  position: absolute;
+  width: 126px;
+  height: 30px;
+  left: calc(50% - 126px / 2 + 356px);
+  top: 54px;
+  text-transform: uppercase;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 100%;
+  /* identical to box height, or 30px */
 
-    text-align: center;
+  text-align: center;
 
-    color: #FFFFFF;
+  color: #ffffff;
 }
 
 div.bar p.home {
-    position: absolute;
-    width: 126px;
-    height: 30px;
-    left: calc(50% - 126px/2 + 531px);
-    top: 54px;
-    text-transform: uppercase;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 30px;
-    line-height: 100%;
-    /* identical to box height, or 30px */
+  position: absolute;
+  width: 126px;
+  height: 30px;
+  left: calc(50% - 126px / 2 + 531px);
+  top: 54px;
+  text-transform: uppercase;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 100%;
+  /* identical to box height, or 30px */
 
-    text-align: center;
+  text-align: center;
 
-    color: #FFFFFF;
+  color: #ffffff;
 }
 
 div.bar svg.second {
-    position: absolute;
-    width: 45px;
-    height: 35px;
-    left: 1412px;
-    top: 49px;
+  position: absolute;
+  width: 45px;
+  height: 35px;
+  left: 1412px;
+  top: 49px;
 }
 
 div.frame11 {
-    position: absolute;
-    width: 1500px;
-    height: 872px;
-    left: 0px;
-    top: 128px;
+  position: absolute;
+  width: 1500px;
+  height: 872px;
+  left: 0px;
+  top: 128px;
 }
 
 div.frame11 p.one {
-    position: absolute;
-    width: 678.83px;
-    height: 47.77px;
-    left: calc(50% - 678.83px/2 - 0.5px);
-    top: 140px;
+  position: absolute;
+  width: 678.83px;
+  height: 47.77px;
+  left: calc(50% - 678.83px / 2 - 0.5px);
+  top: 140px;
 
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 30px;
-    line-height: 100%;
-    /* or 30px */
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 100%;
+  /* or 30px */
 
-    text-align: center;
+  text-align: center;
 
-    color: #FFFFFF;
+  color: #ffffff;
 }
 
 div.frame11 p.two {
-    position: absolute;
-    width: 709px;
-    height: 69.81px;
-    left: calc(50% - 709px/2 - 0.5px);
-    top: calc(50% - 69.81px/2 - 198.98px);
+  position: absolute;
+  width: 709px;
+  height: 69.81px;
+  left: calc(50% - 709px / 2 - 0.5px);
+  top: calc(50% - 69.81px / 2 - 198.98px);
 
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 50px;
-    line-height: 100%;
-    /* or 50px */
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 100%;
+  /* or 50px */
 
-    text-align: center;
+  text-align: center;
 
-    color: #FCDC00;
+  color: #fcdc00;
 }
 
 div.frame11 div.thin {
-    position: absolute;
-    width: 253px;
-    height: 5px;
-    left: calc(50% - 253px/2 - 0.5px);
-    bottom: 573px;
-    background: #FFC800;
-    border-radius: 5px;
-    transform: matrix(1, 0, 0, -1, 0, 0);
+  position: absolute;
+  width: 253px;
+  height: 5px;
+  left: calc(50% - 253px / 2 - 0.5px);
+  bottom: 573px;
+  background: #ffc800;
+  border-radius: 5px;
+  transform: matrix(1, 0, 0, -1, 0, 0);
 }
 
 div.frame11 p.three {
-    position: absolute;
-    width: 406px;
-    height: 119px;
-    left: 93px;
-    top: 663px;
+  position: absolute;
+  width: 406px;
+  height: 119px;
+  left: 93px;
+  top: 663px;
 
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 50px;
-    line-height: 100%;
-    /* or 50px */
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 100%;
+  /* or 50px */
 
-
-    color: #FCDC00;
+  color: #fcdc00;
 }
 
 div.gradient1 {
-    position: absolute;
-    width: 750px;
-    height: 750px;
-    left: 760px;
-    top: 475px;
+  position: absolute;
+  width: 750px;
+  height: 750px;
+  left: 760px;
+  top: 475px;
 
-    background: linear-gradient(316.73deg, #F4F900 -0.28%, rgba(0, 45, 19, 0.66) 95.7%), #178C00;
-    border-radius: 30px 0px 0px 0px;
+  background: linear-gradient(
+      316.73deg,
+      #f4f900 -0.28%,
+      rgba(0, 45, 19, 0.66) 95.7%
+    ),
+    #178c00;
+  border-radius: 30px 0px 0px 0px;
 }
 
 div.gradient1 img {
-    position: absolute;
-    left: 28%;
-    right: -0.02%;
-    top: -14.2%;
-    bottom: -125.79%;
-    width: 473.08px;
+  position: absolute;
+  left: 28%;
+  right: -0.02%;
+  top: -14.2%;
+  bottom: -125.79%;
+  width: 473.08px;
 }
 
 p.creation {
-    position: absolute;
-    width: 319px;
-    height: 63px;
-    left: 93px;
-    top: 1080px;
+  position: absolute;
+  width: 319px;
+  height: 63px;
+  left: 93px;
+  top: 1080px;
 
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 30px;
-    line-height: 100%;
-    /* or 30px */
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 100%;
+  /* or 30px */
 
-
-    color: #FFFFFF;
+  color: #ffffff;
 }
 
 div.gradient2 {
-    position: absolute;
-    width: 750px;
-    height: 750px;
-    left: 12px;
-    top: 1223.27px;
-    background: linear-gradient(316.73deg, #F4F900 -0.28%, rgba(0, 45, 19, 0.66) 95.7%), #178C00;
-    border-radius: 30px 0px 0px 0px;
-    transform: rotate(-180deg);
+  position: absolute;
+  width: 750px;
+  height: 750px;
+  left: 12px;
+  top: 1223.27px;
+  background: linear-gradient(
+      316.73deg,
+      #f4f900 -0.28%,
+      rgba(0, 45, 19, 0.66) 95.7%
+    ),
+    #178c00;
+  border-radius: 30px 0px 0px 0px;
+  transform: rotate(-180deg);
 }
 
 div.gradient2 img {
-    position: absolute;
-    width: 408px;
-    height: 286.38px;
-    left: 166px;
-    top: 252px;
-    transform: rotate(-180deg);
+  position: absolute;
+  width: 408px;
+  height: 286.38px;
+  left: 166px;
+  top: 252px;
+  transform: rotate(-180deg);
 }
 
 div.free p.for {
-    position: absolute;
-    width: 124px;
-    height: 31px;
-    left: 1290px;
-    top: 1463px;
+  position: absolute;
+  width: 124px;
+  height: 31px;
+  left: 1290px;
+  top: 1463px;
 
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 50px;
-    line-height: 100%;
-    /* or 50px */
-    color: #FCDC00;
-    text-align: right;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 100%;
+  /* or 50px */
+  color: #fcdc00;
+  text-align: right;
 }
 
 div.free p.fre {
-    position: absolute;
-    width: 270px;
-    height: 84px;
-    left: 1141px;
-    top: 1506px;
+  position: absolute;
+  width: 270px;
+  height: 84px;
+  left: 1141px;
+  top: 1506px;
 
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 100px;
-    line-height: 100%;
-    /* or 100px */
-    color: #FCDC00;
-    text-align: right;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 100px;
+  line-height: 100%;
+  /* or 100px */
+  color: #fcdc00;
+  text-align: right;
 }
 
 div.free p.subs {
-    position: absolute;
-    width: 288px;
-    height: 53px;
-    left: 1141px;
-    top: 1720px;
+  position: absolute;
+  width: 288px;
+  height: 53px;
+  left: 1141px;
+  top: 1720px;
 
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 30px;
-    line-height: 100%;
-    /* or 30px */
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 100%;
+  /* or 30px */
 
-    text-align: right;
+  text-align: right;
 
-    color: #FFFFFF;
-
+  color: #ffffff;
 }
 
 div.video {
-    position: absolute;
-    width: 453px;
-    height: 221px;
-    left: 66px;
-    top: 2201px;
+  position: absolute;
+  width: 453px;
+  height: 221px;
+  left: 66px;
+  top: 2201px;
 }
 
 div.video p.no {
-    position: absolute;
-    width: 453px;
-    height: 99px;
-    left: 0px;
-    top: 1px;
+  position: absolute;
+  width: 453px;
+  height: 99px;
+  left: 0px;
+  top: 1px;
 
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 100px;
-    line-height: 100%;
-    /* or 100px */
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 100px;
+  line-height: 100%;
+  /* or 100px */
 
-    text-align: center;
+  text-align: center;
 
-    color: #FCDC00;
+  color: #fcdc00;
 }
 
 div.video p.title {
-    position: absolute;
-    width: 371px;
-    height: 33px;
-    left: 41px;
-    top: 110px;
+  position: absolute;
+  width: 371px;
+  height: 33px;
+  left: 41px;
+  top: 110px;
 
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 30px;
-    line-height: 100%;
-    /* or 30px */
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 100%;
+  /* or 30px */
 
-    text-align: center;
+  text-align: center;
 
-    color: #FFFFFF;
+  color: #ffffff;
 }
 
 div.video div.yellow p.yellow {
-
-    position: absolute;
-    width: 307px;
-    height: 33px;
-    left: 56px;
-    top: 182px;
-    text-transform: uppercase;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 30px;
-    line-height: 100%;
-    text-align: center;
-    background: linear-gradient(268.94deg, #E0FF22 0.22%, rgba(39, 68, 47, 0) 95.37%), #FCDC00;
-    border-radius: 5px;
-    color: #002D13;
-    padding: 18px;
+  position: absolute;
+  width: 307px;
+  height: 33px;
+  left: 56px;
+  top: 182px;
+  text-transform: uppercase;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 100%;
+  text-align: center;
+  background: linear-gradient(
+      268.94deg,
+      #e0ff22 0.22%,
+      rgba(39, 68, 47, 0) 95.37%
+    ),
+    #fcdc00;
+  border-radius: 5px;
+  color: #002d13;
+  padding: 18px;
 }
 
 div.subscriber {
-    position: absolute;
-    top: 2201px;
-    left: 540px;
+  position: absolute;
+  top: 2201px;
+  left: 540px;
 }
 
 div.subscriber p.no {
-    position: absolute;
-    width: 453px;
-    height: 99px;
-    left: 0px;
-    top: 1px;
+  position: absolute;
+  width: 453px;
+  height: 99px;
+  left: 0px;
+  top: 1px;
 
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 100px;
-    line-height: 100%;
-    /* or 100px */
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 100px;
+  line-height: 100%;
+  /* or 100px */
 
-    text-align: center;
+  text-align: center;
 
-    color: #FCDC00;
+  color: #fcdc00;
 }
 
 div.subscriber p.title {
-    position: absolute;
-    width: 371px;
-    height: 33px;
-    left: 41px;
-    top: 110px;
+  position: absolute;
+  width: 371px;
+  height: 33px;
+  left: 41px;
+  top: 110px;
 
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 30px;
-    line-height: 100%;
-    /* or 30px */
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 100%;
+  /* or 30px */
 
-    text-align: center;
+  text-align: center;
 
-    color: #FFFFFF;
+  color: #ffffff;
 }
 
 div.subscriber div.yellow p.yellow {
-    position: absolute;
-    width: 307px;
-    height: 33px;
-    text-transform: uppercase;
-    left: 56px;
-    top: 182px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 30px;
-    line-height: 100%;
-    text-align: center;
-    background: linear-gradient(268.94deg, #E0FF22 0.22%, rgba(39, 68, 47, 0) 95.37%), #FCDC00;
-    border-radius: 5px;
-    color: #002D13;
-    padding: 18px;
+  position: absolute;
+  width: 307px;
+  height: 33px;
+  text-transform: uppercase;
+  left: 56px;
+  top: 182px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 100%;
+  text-align: center;
+  background: linear-gradient(
+      268.94deg,
+      #e0ff22 0.22%,
+      rgba(39, 68, 47, 0) 95.37%
+    ),
+    #fcdc00;
+  border-radius: 5px;
+  color: #002d13;
+  padding: 18px;
 }
 
 div.group {
-    position: absolute;
-    top: 2201px;
-    left: 1000px;
+  position: absolute;
+  top: 2201px;
+  left: 1000px;
 }
 
 div.group p.no {
-    position: absolute;
-    width: 453px;
-    height: 99px;
-    left: 0px;
-    top: 1px;
+  position: absolute;
+  width: 453px;
+  height: 99px;
+  left: 0px;
+  top: 1px;
 
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 100px;
-    line-height: 100%;
-    /* or 100px */
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 100px;
+  line-height: 100%;
+  /* or 100px */
 
-    text-align: center;
+  text-align: center;
 
-    color: #FCDC00;
+  color: #fcdc00;
 }
 
 div.group p.title {
-    position: absolute;
-    width: 371px;
-    height: 33px;
-    left: 41px;
-    top: 110px;
+  position: absolute;
+  width: 371px;
+  height: 33px;
+  left: 41px;
+  top: 110px;
 
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 30px;
-    line-height: 100%;
-    /* or 30px */
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 100%;
+  /* or 30px */
 
-    text-align: center;
+  text-align: center;
 
-    color: #FFFFFF;
+  color: #ffffff;
 }
 
 div.group div.yellow p.yellow {
-    position: absolute;
-    width: 307px;
-    height: 33px;
-    left: 56px;
-    top: 182px;
-    text-transform: uppercase;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 30px;
-    line-height: 100%;
-    text-align: center;
-    background: linear-gradient(268.94deg, #E0FF22 0.22%, rgba(39, 68, 47, 0) 95.37%), #FCDC00;
-    border-radius: 5px;
-    color: #002D13;
-    padding: 18px;
+  position: absolute;
+  width: 307px;
+  height: 33px;
+  left: 56px;
+  top: 182px;
+  text-transform: uppercase;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 100%;
+  text-align: center;
+  background: linear-gradient(
+      268.94deg,
+      #e0ff22 0.22%,
+      rgba(39, 68, 47, 0) 95.37%
+    ),
+    #fcdc00;
+  border-radius: 5px;
+  color: #002d13;
+  padding: 18px;
 }
 
 div.join {
-    position: absolute;
-    width: 1500px;
-    height: 625px;
-    left: 0px;
-    top: 2621px;
+  position: absolute;
+  width: 1500px;
+  height: 625px;
+  left: 0px;
+  top: 2621px;
 
-    background: #003E1A;
+  background: #003e1a;
 }
 
 p.join1 {
-    position: absolute;
-    width: 291px;
-    height: 94px;
-    left: 204px;
-    top: 2761px;
+  position: absolute;
+  width: 291px;
+  height: 94px;
+  left: 204px;
+  top: 2761px;
 
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 100px;
-    line-height: 100%;
-    /* or 100px */
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 100px;
+  line-height: 100%;
+  /* or 100px */
 
-    text-align: center;
-    text-transform: uppercase;
-    color: #FFFFFF;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 
 p.acp {
-    position: absolute;
-    width: 699px;
-    height: 176px;
-    left: 0px;
-    top: 2855px;
-    text-transform: uppercase;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 200px;
-    line-height: 100%;
-    /* or 200px */
-    color: #FCDC00;
+  position: absolute;
+  width: 699px;
+  height: 176px;
+  left: 0px;
+  top: 2855px;
+  text-transform: uppercase;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 200px;
+  line-height: 100%;
+  /* or 200px */
+  color: #fcdc00;
 
-    text-align: center;
-
+  text-align: center;
 }
 
 svg.qn {
-    position: absolute;
-    width: 35px;
-    height: 35px;
-    left: 580px;
-    top: 2887px;
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  left: 580px;
+  top: 2887px;
 }
 
 p.lm {
-    position: absolute;
-    width: 291px;
-    height: 33px;
-    left: calc(50% - 291px/2 - 438.5px);
-    top: calc(50% - 33px/2 + 2668.5px);
-    border-radius: 5px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 1000;
-    font-size: 30px;
-    line-height: 100%;
-    /* or 30px */
-    text-transform: uppercase;
-    text-align: center;
-    background: linear-gradient(268.94deg, #E0FF22 0.22%, rgba(39, 68, 47, 0) 95.37%), #FCDC00;
-    padding: 18px;
-    color: #002D13;
-
-
+  position: absolute;
+  width: 291px;
+  height: 33px;
+  left: calc(50% - 291px / 2 - 438.5px);
+  top: calc(50% - 33px / 2 + 2668.5px);
+  border-radius: 5px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 30px;
+  line-height: 100%;
+  /* or 30px */
+  text-transform: uppercase;
+  text-align: center;
+  background: linear-gradient(
+      268.94deg,
+      #e0ff22 0.22%,
+      rgba(39, 68, 47, 0) 95.37%
+    ),
+    #fcdc00;
+  padding: 18px;
+  color: #002d13;
 }
 
 p.tc {
-    position: absolute;
-    width: 762px;
-    height: 97px;
-    left: calc(50% - 762px/2 + 330px);
-    top: calc(50% - 97px/2 + 2294.5px);
+  position: absolute;
+  width: 762px;
+  height: 97px;
+  left: calc(50% - 762px / 2 + 330px);
+  top: calc(50% - 97px / 2 + 2294.5px);
 
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 50px;
-    line-height: 100%;
-    /* or 50px */
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 100%;
+  /* or 50px */
 
-    text-align: center;
+  text-align: center;
 
-    color: #FFFFFF;
+  color: #ffffff;
 }
 
 svg.arr1 {
-    position: absolute;
-    width: 21px;
-    height: 19px;
-    left: calc(50% - 21px/2 + 25.5px);
-    top: calc(50% - 19px/2 + 2442.5px);
+  position: absolute;
+  width: 21px;
+  height: 19px;
+  left: calc(50% - 21px / 2 + 25.5px);
+  top: calc(50% - 19px / 2 + 2442.5px);
 }
 
 p.prep {
-    position: absolute;
-    width: 413px;
-    height: 30px;
-    left: calc(50% - 413px/2 + 262.5px);
-    top: calc(50% - 30px/2 + 2437px);
+  position: absolute;
+  width: 413px;
+  height: 30px;
+  left: calc(50% - 413px / 2 + 262.5px);
+  top: calc(50% - 30px / 2 + 2437px);
 
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 38px;
-    line-height: 100%;
-    /* or 38px */
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 38px;
+  line-height: 100%;
+  /* or 38px */
 
-
-    color: #FFFFFF;
+  color: #ffffff;
 }
 
 svg.arr2 {
-    position: absolute;
-    width: 21px;
-    height: 19px;
-    left: calc(50% - 21px/2 + 25.5px);
-    top: calc(50% - 19px/2 + 2533.5px);
-
+  position: absolute;
+  width: 21px;
+  height: 19px;
+  left: calc(50% - 21px / 2 + 25.5px);
+  top: calc(50% - 19px / 2 + 2533.5px);
 }
 
 p.grp {
-    position: absolute;
-    width: 285px;
-    height: 30px;
-    left: calc(50% - 285px/2 + 197.5px);
-    top: calc(50% - 30px/2 + 2528px);
+  position: absolute;
+  width: 285px;
+  height: 30px;
+  left: calc(50% - 285px / 2 + 197.5px);
+  top: calc(50% - 30px / 2 + 2528px);
 
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 38px;
-    line-height: 100%;
-    /* or 38px */
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 38px;
+  line-height: 100%;
+  /* or 38px */
 
-
-    color: #FFFFFF
+  color: #ffffff;
 }
 
 svg.arr3 {
-    position: absolute;
-    width: 21px;
-    height: 19px;
-    left: calc(50% - 21px/2 + 25.5px);
-    top: calc(50% - 19px/2 + 2624.5px);
+  position: absolute;
+  width: 21px;
+  height: 19px;
+  left: calc(50% - 21px / 2 + 25.5px);
+  top: calc(50% - 19px / 2 + 2624.5px);
 }
 
 p.live {
-    position: absolute;
-    width: 284px;
-    height: 30px;
-    left: calc(50% - 284px/2 + 198px);
-    top: calc(50% - 30px/2 + 2619px);
+  position: absolute;
+  width: 284px;
+  height: 30px;
+  left: calc(50% - 284px / 2 + 198px);
+  top: calc(50% - 30px / 2 + 2619px);
 
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 38px;
-    line-height: 100%;
-    /* or 38px */
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 38px;
+  line-height: 100%;
+  /* or 38px */
 
-
-    color: #FFFFFF;
+  color: #ffffff;
 }
 
 svg.arr4 {
-    position: absolute;
-    width: 21px;
-    height: 19px;
-    left: calc(50% - 21px/2 + 25.5px);
-    top: calc(50% - 19px/2 + 2715.5px);
+  position: absolute;
+  width: 21px;
+  height: 19px;
+  left: calc(50% - 21px / 2 + 25.5px);
+  top: calc(50% - 19px / 2 + 2715.5px);
 }
 
 p.much {
-    position: absolute;
-    width: 349px;
-    height: 30px;
-    left: calc(50% - 349px/2 + 230.5px);
-    top: calc(50% - 30px/2 + 2710px);
+  position: absolute;
+  width: 349px;
+  height: 30px;
+  left: calc(50% - 349px / 2 + 230.5px);
+  top: calc(50% - 30px / 2 + 2710px);
 
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 38px;
-    line-height: 100%;
-    /* or 38px */
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 38px;
+  line-height: 100%;
+  /* or 38px */
 
-
-    color: #FFFFFF;
+  color: #ffffff;
 }
 
 div.apar-vai {
-    position: absolute;
-    width: 1387px;
-    height: 349px;
-    left: 57px;
-    top: 3351px;
+  position: absolute;
+  width: 1387px;
+  height: 349px;
+  left: 57px;
+  top: 3351px;
 }
 
 div.apar-vai svg.top {
-    position: absolute;
-    width: 64px;
-    height: 64px;
-    left: 714px;
-    top: 181px;
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  left: 714px;
+  top: 181px;
 }
 
 div.apar-vai p.name {
-    position: absolute;
-    width: 371px;
-    height: 33px;
-    left: 210px;
-    top: 95px;
+  position: absolute;
+  width: 371px;
+  height: 33px;
+  left: 210px;
+  top: 95px;
 
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 30px;
-    line-height: 100%;
-    /* or 30px */
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 100%;
+  /* or 30px */
 
-
-    color: #FCDC00;
+  color: #fcdc00;
 }
 
 div.apar-vai p.intro {
-    position: absolute;
-    width: 289px;
-    height: 24px;
-    left: 210px;
-    top: 142px;
+  position: absolute;
+  width: 289px;
+  height: 24px;
+  left: 210px;
+  top: 142px;
 
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 100%;
-    /* or 20px */
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  /* or 20px */
 
-
-    color: #FFFFFF;
+  color: #ffffff;
 }
 
 div.apar-vai svg.fb {
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    left: calc(50% - 40px/2 - 463.5px);
-    top: 194px;
-
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: calc(50% - 40px / 2 - 463.5px);
+  top: 194px;
 }
 
 div.apar-vai svg.twitter {
-
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    left: 296px;
-    top: 194px;
-
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 296px;
+  top: 194px;
 }
 
 div.apar-vai svg.ig {
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    left: 382px;
-    top: 194px;
-
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 382px;
+  top: 194px;
 }
 
 div.apar-vai p.right {
-    position: absolute;
-    width: 315px;
-    height: 26px;
-    left: 1072px;
-    top: 115px;
+  position: absolute;
+  width: 315px;
+  height: 26px;
+  left: 1072px;
+  top: 115px;
 
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 100%;
-    /* or 22px */
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 100%;
+  /* or 22px */
 
-    text-align: right;
+  text-align: right;
 
-    color: #FFFFFF;
+  color: #ffffff;
 }
 
 div.apar-vai p.classroom {
-    position: absolute;
-    width: 329px;
-    height: 38px;
-    left: 1058px;
-    top: 145px;
+  position: absolute;
+  width: 329px;
+  height: 38px;
+  left: 1058px;
+  top: 145px;
 
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 35px;
-    line-height: 100%;
-    /* or 35px */
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 35px;
+  line-height: 100%;
+  /* or 35px */
 
-    text-align: right;
+  text-align: right;
 
-    color: #FCDC00;
+  color: #fcdc00;
+}
+
+div.apar-vai div.golla {
+}
+div.apar-vai div.golla img.apar {
+  position: absolute;
+  height: 276px;
+  left: -61px;
 }
