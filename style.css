@@ -10,23 +10,32 @@ a {
 }
 
 body {
-  background: #00481f;
+  background: #003015;
   width: 1500px;
+  overflow-x: hidden;
 }
 
 div.wrapper {
-  background: #002d13;
   height: 1000px;
   width: 1500px;
 }
 
 div.bar {
   position: absolute;
-  width: 1500px;
+  width: 1520px;
   height: 129px;
   left: 0px;
   top: 0px;
-  background: #004b20;
+  background: #004B20;
+}
+
+div.six {
+  position: absolute;
+  width: 1520px;
+  height: 400px;
+  left: 0px;
+  top: 2137px;
+  background: #004B20;
 }
 
 div.bar svg.first {
@@ -497,7 +506,7 @@ div.join {
   left: 0px;
   top: 2621px;
 
-  background: #003e1a;
+  background: #003015;
 }
 
 p.join1 {
@@ -689,10 +698,12 @@ p.much {
 
 div.apar-vai {
   position: absolute;
-  width: 1387px;
-  height: 349px;
-  left: 57px;
+  width: 1520px;
+  height: 300px;
+  left: 0px;
   top: 3351px;
+
+  background: #004B20;
 }
 
 div.apar-vai svg.top {
@@ -707,7 +718,7 @@ div.apar-vai p.name {
   position: absolute;
   width: 371px;
   height: 33px;
-  left: 210px;
+  left: 330px;
   top: 95px;
 
   font-family: Montserrat;
@@ -724,7 +735,7 @@ div.apar-vai p.intro {
   position: absolute;
   width: 289px;
   height: 24px;
-  left: 210px;
+  left: 330px;
   top: 142px;
 
   font-family: Montserrat;
@@ -741,7 +752,7 @@ div.apar-vai svg.fb {
   position: absolute;
   width: 40px;
   height: 40px;
-  left: calc(50% - 40px / 2 - 463.5px);
+  left: 332px;
   top: 194px;
 }
 
@@ -749,7 +760,7 @@ div.apar-vai svg.twitter {
   position: absolute;
   width: 40px;
   height: 40px;
-  left: 296px;
+  left: 416px;
   top: 194px;
 }
 
@@ -757,7 +768,7 @@ div.apar-vai svg.ig {
   position: absolute;
   width: 40px;
   height: 40px;
-  left: 382px;
+  left: 492px;
   top: 194px;
 }
 
@@ -799,10 +810,48 @@ div.apar-vai p.classroom {
   color: #fcdc00;
 }
 
-div.apar-vai div.golla {}
 
 div.apar-vai div.golla img.apar {
   position: absolute;
   height: 276px;
-  left: -61px;
+  left: 57px;
+}
+
+svg.top {
+  cursor: pointer;
+}
+
+#loader-wrapper {
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: #003015;
+}
+
+svg.loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.white-loader {
+  animation: animate 1.5s infinite;
+}
+
+@keyframes animate {
+  0% {
+    fill: white;
+  }
+
+  50% {
+    fill: #FFC800;
+  }
+
+  100% {
+    fill: white;
+  }
 }
